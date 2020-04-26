@@ -1702,7 +1702,7 @@ class _SuggestionsBox {
     // keyboardHeight includes unsafeAreaHeight, if keyboard is showing, set to 0
     double unsafeAreaHeight = keyboardHeight == 0 && rootMediaQuery != null
         ? rootMediaQuery.data.padding.bottom
-        : 0;
+        : 100;
 
     return windowHeight -
         keyboardHeight -
