@@ -1701,8 +1701,8 @@ class _SuggestionsBox {
     // unsafe area, ie: iPhone X 'home button'
     // keyboardHeight includes unsafeAreaHeight, if keyboard is showing, set to 0
     double unsafeAreaHeight = keyboardHeight == 0 && rootMediaQuery != null
-        ? rootMediaQuery.data.padding.bottom
-        : 100;
+        ? 300
+        : 300;
 
     return windowHeight -
         keyboardHeight -
